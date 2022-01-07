@@ -1,0 +1,189 @@
+<html lang="en">
+
+<head>
+
+    <title>Portfolio</title>
+
+    <style>
+
+        body {
+            margin: 0px;
+        }
+
+        span {
+            color: rgb(235, 31, 31);
+            margin: 10px;
+        }
+
+        #header {
+            height: 70px;
+            background-color: black;
+        }
+
+        #brand {
+            width: 30%;
+            float: left;
+            height: 70px;
+            color: gold;
+            text-align: center;
+        }
+
+        #menu {
+            width: 70%;
+            float: right;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+        }
+
+       
+        #footer {
+            background-color: black;
+            text-align: center;
+            padding: 50px;
+            margin-top: 50px;
+            color: white;
+            height:250px;
+        }
+        #imageAndText{
+            height:400px;
+            width:100%;
+            margin-top:10px;
+        }
+
+        table {
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+        }
+       
+
+
+        #1image {
+            float: right;
+            border-radius: 50px;
+        }
+        #pic{
+            width:30%;
+            height:400px;
+            float:left;
+        }
+        #social{
+            width:100%;
+            float:left;
+            padding-left:20px;
+            
+        }
+        #simpletext {
+            float:right;
+            height:400px;
+            width:60%;
+           margin-left:20px;
+        }
+        img{
+            border-radius:250px;
+        }
+        tr{
+           
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="Header">
+
+        <div id="Brand">
+
+            <h2>My Portfolio</h2>
+
+        </div>
+
+
+
+        <div id="menu">
+
+            <span>Home</span>
+
+            <span>Profile</span>
+
+            <span>Projects</span>
+
+            <span>Resume</span>
+
+        </div>
+
+    </div>
+
+    <div id="main">
+
+        <div id="imageAndText">
+
+            <div id="pic" >
+
+                <img  src="https://th.bing.com/th/id/OIP.aSky6wUKUV5K1dC4TgKt_AHaE7?w=265&h=180&c=7&r=0&o=5&pid=1.7"
+                     width="300px"
+                     height="300px" />
+
+            </div>
+
+            <div id="simpletext">
+
+                <h4>Hi Team</h4>
+
+                <h2>I am Chetan</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, necessitatibus error! Possimus id, repellendus similique saepe tempore, rem inventore, nam debitis recusandae minus sit! Voluptatem adipisci incidunt ullam dolorem voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iste placeat enim culpa quis suscipit tempore similique consectetur consequatur blanditiis rem ipsa autem nihil, magnam esse corrupti quidem accusantium tenetur!    </p>
+
+            </div>
+
+        </div>
+
+        <div id="imgList">
+
+            <table>
+
+                <tr>
+
+                    <td>
+                        <img src="https://th.bing.com/th/id/OIP.lcXsRpxmzV4F0E3sEP-kkQHaHa?w=219&h=219&c=7&r=0&o=5&pid=1.7" width="200px" height="200px">
+                        <h4>Profile</h4>
+                    </td>
+
+                    <td><img src="https://th.bing.com/th/id/OIP.gdiRkZrZ0tgyHFCPj2ygBwHaHa?w=202&h=202&c=7&r=0&o=5&pid=1.7" width="200px" height="200px"><h4>Resume</h4></td>
+
+                    <td><img src="https://th.bing.com/th/id/OIP.8tnHomElJgeB72qwMTSGCwHaHa?w=213&h=212&c=7&r=0&o=5&pid=1.7" width="200px" height="200px"><h4>Project</h4></td>
+
+                    <td><img src="https://th.bing.com/th/id/OIP.scM5XUYeeiBJAgtF-shjCQHaHU?w=222&h=219&c=7&r=0&o=5&pid=1.7" width="200px" height="200px"><h4>Contact</h4></td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div id="social">
+            <table>
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEeHgbGz-N7FyHT4pQrZhOLHxEiBS8EpLMXQ&usqp=CAU" width="50px" height="50px" /></td>
+                    <td><img src="https://th.bing.com/th/id/OIP.r1Ot-0IQNDE1rRtoOtnrIgHaHZ?w=166&h=180&c=7&r=0&o=5&pid=1.7" width="50px" height="50px" /></td>
+                </tr>
+</table>
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, necessitatibus error! Possimus id, repellendus similique
+        </div>
+      <div>
+          <h5>All Copy Rights Recieved</h5>
+      </div>
+
+
+    </div>
+
+</body>
+
+</html>
